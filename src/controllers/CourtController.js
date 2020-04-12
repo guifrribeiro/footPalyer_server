@@ -29,7 +29,7 @@ module.exports = {
       company,
       sports: sports.split(',').map(sport => sport.trim()),
       price
-    })
+    });
 
     return res.json(court);
   }
